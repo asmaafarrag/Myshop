@@ -1,0 +1,559 @@
+.container{
+	
+	width: 1200px;
+	margin: 0 auto;
+	font-family:Monospace;
+	overflow:hidden;
+}
+nav .logo{
+	
+	float:left;
+	width: 50%;
+	font-size: 20px;
+	margin-top: 8px;
+	
+	
+	
+  
+	
+	
+}
+
+nav .list{
+	
+	float: right;
+	width: 50%;
+	
+   
+}
+
+nav .list ul{
+	
+	list-style: none;
+	padding :0;
+	
+}
+
+nav .list ul li{
+	
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: black;
+	word-spacing: 0;
+
+	
+}
+a:link{
+	text-decoration:none;
+	cursor: defult;
+	color: black;
+ }
+ 
+a:visited{
+	color:black;
+	
+}
+ 
+a:hover {
+	color: #ff69b4;
+}
+
+a:active{
+	color: blue;
+}
+
+span {
+	
+	color: #ff69b4;
+	font-size: 23px;
+	margin-left:23px;
+	padding-bottom: 120px;
+	
+	
+}
+
+
+
+
+
+.header{
+  height: 550px;
+  min-width: 1200px;
+  background-image: url("https://images.pexels.com/photos/974964/pexels-photo-974964.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-974964.jpg&fm=jpg");
+	background-size:  cover ;
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}
+.header .info main{
+	
+	padding-top: 180px;
+	padding-left: 180px;
+}
+
+.header .info div{
+	
+	font-size: 35px;
+	font-family: Palatino;
+	margin:0;
+	/*letter-spacing: 15px;*/
+	color: #ff69b4;
+}
+
+.header .info p{
+	
+	font-size: 35px;
+	color: black;
+	font-family: "American Typewriter";
+	letter-spacing: 9px;
+	
+}
+.header .info button {
+	 border-color: #E2729B;
+	 border-radius:50px;
+	 padding: 15px 30px;
+	 font-size: 20px;
+	 margin-top: 10px;
+	 cursor: position;
+	 margin-left: 99px;
+	 background-color:#EF87AD;
+	 color: black;
+}
+
+
+
+/* start popular*/
+
+
+
+.popular {
+  
+  padding-top: 40px;
+	padding-left: 20px;
+	
+	
+}
+
+
+
+
+.popular .heading h2{
+	
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	font-family:Palatino ;
+	
+  /*"Times New Roman"*/
+	
+	
+}
+
+.popular .gallary {
+	
+	float: left;
+	width: 33.333%;
+	padding-top: 100px;
+	
+	
+	
+   
+	
+	
+}
+
+
+.popular .gallary .image img{
+	
+	width: 70% ;
+	height: 300px;
+	margin-left: 50px;
+	border-radius:30px;
+	padding: 10px;
+	
+	
+	
+	
+	
+	
+	
+}
+.popular .gallary .info{
+	
+  padding-top: 60px;
+	padding-left: 10px;
+	text-align: center;
+	
+}
+
+.popular .gallary .info span{
+	
+	
+	color: #E2729B;
+	font-size: 35px;
+	text-align: center;
+	
+	
+}
+
+
+.popular .gallary .info p{
+	
+	
+	font-size: 30px;
+	padding-bottom: 80px;
+	
+	
+	
+}
+
+
+/* end popular*/
+
+
+
+/* start cosmetics*/
+
+
+
+
+.cosmetics {
+  
+ 
+	padding-left: 20px;
+	
+
+	
+  
+
+	
+}
+
+
+
+
+.cosmetics .heading h2{
+	
+	text-align: center;
+	color: black;
+	padding-top: 50px;
+	font-size: 40px;
+	font-family:Palatino ;
+	
+	
+  /*"Times New Roman"*/
+	
+	
+}
+
+.cosmetics .gallary {
+	
+	float: right;
+	width: 20%;
+	padding-top: 80px;
+	padding-top: 70px;
+	display: flex;
+  flex-wrap: wrap;
+	
+   
+	
+	
+}
+	.cosmetics .gallary > div{
+		
+		
+		width: 100%;
+		margin: 10px;
+		text-align: center;
+		line-height: 20px;
+		font-size:30px;
+		
+		
+	}	
+
+
+
+
+.cosmetics .gallary .image img{
+	
+	width: 80% ;
+	height: 300px;
+	margin-right: 50px;
+	border-radius:30px;
+	padding-bottom: 90px;
+	
+	
+	
+	
+}
+
+
+/* end cosmetics*/
+
+
+/* start new products*/
+
+
+
+.popular {
+  
+  padding-top: 40px;
+	padding-left: 20px;
+	
+
+  
+
+	
+}
+
+
+.popular .heading h2{
+	
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	font-family:Palatino ;
+	
+  /*"Times New Roman"*/
+	
+	
+}
+
+.popular .gallary {
+	
+	float: left;
+	width: 33.333%;
+	padding-top: 100px;
+	
+	
+	
+   
+	
+	
+}
+
+
+.popular .gallary .image img{
+	
+	width: 70% ;
+	height: 300px;
+	margin-left: 50px;
+	border-radius:30px;
+	padding: 10px;
+	
+	
+	
+	
+	
+	
+	
+}
+.popular .gallary .info {
+	
+  padding-top: 60px;
+	padding-left: 10px;
+	text-align: center;
+	
+	
+}
+
+.popular .gallary .info span{
+	
+	
+	color: #E2729B;
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 10px;
+	
+	
+}
+
+
+.popular .gallary .info p{
+	
+	
+	font-size: 30px;
+	padding-bottom: 10px;
+	
+	
+	
+}
+
+.popular .gallary .info .checked{
+	
+	  padding-bottom: 90px;
+	color :orange;
+	padding-top: 10px;
+	font-size: 20px;
+	}
+
+
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.containerr {
+  
+  background-color: #FFFAFA;
+  border-radius: 70px;
+  padding: 16px;
+  margin: 16px 15px;
+  width: 530px;
+  float: right;
+  
+  
+
+  
+	
+}
+
+/* Clear floats after containers */
+.containerr::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.containerr img {
+  float: left;
+  margin-right: 50px;
+  border-radius: 90%;
+  
+}
+
+/* Increase the font-size of a span element */
+.containerr span {
+  font-size: 20px;
+  margin-right: 15px;
+  
+	
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .containerr{
+	text-align: center;
+  }
+
+  .containerr img {
+	margin: auto;
+	float: left;
+	display:block;
+	
+	
+  }
+  
+  
+}
+
+.headingg h2{
+	text-align: center;
+	color: black;
+	font-size: 40px;
+	font-family:Palatino ;
+	padding-top: 300px;
+	
+	
+}
+
+/* end client says*/
+
+
+/* start form */
+
+.container {
+	margin-top: 100px;
+	
+}
+.container .inputs input {
+	
+	padding: 10px;
+	border-radius:7px;
+	border: 1px solid #e9eaea;
+	margin-bottom: 20px;
+	
+	
+}
+
+
+.container .inputs input[type=text]:not(last-of-type){
+	
+	width: 35%;
+	display: inline-block;
+	float: center;
+	
+}
+
+
+.container .inputs input[type=email],
+.container .inputs input[type=text]:last-of-type{
+	
+   width: 100%;
+
+
+}
+
+
+.container .inputs textarea{
+	
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	border-radius:7px;
+	border: 1px solid #ccc;
+	
+	
+}
+
+
+.container button{
+  border:none;
+  background: #E2729B;
+  padding: 15px 30px;
+  font-size: 17px;
+  display: block;
+  margin: 40px auto;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+  
+	
+	
+}
+
+
+
+
+.cos {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	flex-direction: row;
+	max-height: 100vh;
+  }
+  .cos img {
+	margin: 10px;
+	border: 3px solid #000;
+	box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+	max-width: 23vw;
+  }		
+  
+ 
+
+
+
+
+/* start footer */
+
+footer {
+	padding-top: 10px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: #FFFAFA;
+}
+
+
+
+/* end footer */																			
